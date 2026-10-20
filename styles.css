@@ -2934,3 +2934,47 @@
      color: var(--goldlight);
      font: 20px var(--serif)
  }
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.hero-actions .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 56px;
+    box-sizing: border-box;
+    padding: 14px 24px;
+    margin: 0;
+    font: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hero-actions .button-outline {
+    color: #fff1c9;
+    background: transparent;
+    border: 1px solid rgba(218, 180, 103, 0.65);
+    border-radius: 2px;
+}
+
+.hero-actions .button-outline:hover {
+    background: rgba(218, 180, 103, 0.12);
+    color: #ffffff;
+}
+
+@media (max-width: 480px) {
+    .hero-actions {
+        gap: 10px;
+    }
+
+    .hero-actions .button {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+}
