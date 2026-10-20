@@ -2875,9 +2875,9 @@
  }
 
  .phone-list a {
-     color: var(--maroon);
+     color: #64141d;
      text-decoration: none;
-     border-bottom: 1px solid #d7b16a
+     border-bottom: 1px solid #64141d
  }
 
  .closing-blessing {
