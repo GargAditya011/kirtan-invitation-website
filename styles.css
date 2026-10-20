@@ -519,27 +519,6 @@
      outline-color: #bd914b
  }
 
- /*.ad-list {
-     max-width: 900px;
-     margin: auto;
-     display: grid;
-     grid-template-columns: repeat(2, minmax(0, 1fr));
-     gap: 18px
- }
-
- .ad-placeholder {
-     padding: 25px;
-     border: 1px solid #d8b76f;
-     background: linear-gradient(135deg, #fffaf0, #f2dfb9);
-     box-shadow: 0 8px 20px #4d20100b
- }
-
- .ad-placeholder strong {
-     color: var(--maroon);
-     font: 20px var(--serif)
- }*/
-
-
 
 /* LAPTOP: 2 photos side by side */
 .ad-list {
@@ -599,9 +578,6 @@
     }
 }
 
-
-
-
  .contact-panel {
      max-width: 760px;
      margin: auto
@@ -642,18 +618,6 @@
      font-size: 12px;
      color: #8c5a35;
      font-style: normal
- }
-
- .phone-list {
-     display: flex;
-     justify-content: flex-start;
-     gap: 10px 20px;
-     flex-wrap: wrap;
-     margin: 20px 0
- }
-
- .phone-list a {
-     color: var(--maroon)
  }
 
  .site-footer {
@@ -2351,20 +2315,6 @@
      color: #fff0d1
  }
 
- .phone-list {
-     display: flex;
-     justify-content: center;
-     gap: 10px 20px;
-     flex-wrap: wrap;
-     margin: 20px
- }
-
- .phone-list a {
-     color: #fff0d1;
-     text-decoration: none;
-     border-bottom: 1px solid #d7b16a
- }
-
  .closing-blessing {
      color: var(--goldlight);
      font: 20px var(--serif)
@@ -2925,7 +2875,7 @@
  }
 
  .phone-list a {
-     color: #fff0d1;
+     color: var(--maroon);
      text-decoration: none;
      border-bottom: 1px solid #d7b16a
  }
